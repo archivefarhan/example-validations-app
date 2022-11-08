@@ -1,5 +1,10 @@
-### Create
+### Index
+GET http://localhost:3000/users.json
 
+### Show
+GET http://localhost:3000/users/1.json
+
+### Create
 POST http://localhost:3000/users.json
 Content-Type: application/json
 
@@ -16,3 +21,6 @@ Content-Type: application/json
 {
   "first_name": ""
 }
+
+### Destroy
+DELETE http://localhost:3000/users/1.json
